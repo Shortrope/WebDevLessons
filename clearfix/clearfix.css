@@ -1,0 +1,52 @@
+section {
+  background: #f2f2f2;
+  padding: 5px 25px 20px;
+/*  border: 4px inset #aaa;*/
+  border-left: 2px solid #eee;
+  border-top: 2px solid #eee;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 50px;
+/*
+  -webkit-box-shadow: 1px 1px 2px 0 #aaa;
+  box-shadow: 1px 1px 2px 0 #aaa;
+*/
+}
+
+img {
+/*  float: left;*/
+}
+
+.box {
+  width: 75px;
+  height: 75px;
+/*  float: left;*/
+}
+
+/*
+.box:nth-of-type(1) {
+  background: #c00;
+}
+
+.box:nth-of-type(2) {
+  background: #0c0;
+}
+
+.box:nth-of-type(3) {
+  background: #00c;
+}
+*/
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+
+.box:nth-of-type(2) {
+  position: relative;
+}
+

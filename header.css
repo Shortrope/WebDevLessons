@@ -1,0 +1,32 @@
+body {
+  padding: 0px 40px;
+}
+header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav li {
+  -webkit-box-shadow: 1px 1px 2px 0 #aaa;
+  box-shadow: 1px 1px 2px 0 #aaa;
+  width: 6em;
+}
+.nav a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  display: block;
+}
+.title {
+  text-align: center;
+}

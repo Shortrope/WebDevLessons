@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+header {
+  border-bottom: none;
+}
+
+.nav li {
+  list-style-type: none;
+  margin: 8px 0;
+  width: 10em;
+/*  border: 1px solid #ddd;*/
+  -webkit-box-shadow: 1px 2px 4px 1px #ddd;
+  box-shadow: ;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #444;
+  display: block;
+  padding: 8px;
+  text-align: center;
+}
+
